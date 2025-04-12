@@ -1,0 +1,75 @@
+div{
+    background-color: rgba(0,0,0,0.6); 
+    }
+    h1, p{ 
+      color: white;
+      font-family: sans-serif;
+    }
+    body {
+      background-image: url(https://www.thelantern.com/files/2022/11/Record-Stores-1152x759.jpg);
+    }
+    form {
+      width: 80vw;
+      max-width: 500px;
+      min-width: 300px;
+      max-height:500px;
+      margin: auto;
+      padding-bottom: 2em;
+    }
+    label, input[name="email"], input[name="name"], input[name="number"], select, textarea, input[value="submit"] {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+    }
+    label{
+      font-size: 15;
+      font-family: sans-serif;
+      color: white;
+      display: block;
+      margin-left: 15;
+      margin-right: 15;
+    }
+    input[name="email"], input[name="name"], input[name="number"], select{
+        width: 450px ; 
+        height: 25;  
+    }
+    textarea{
+      width: 450px;
+      height: 80px;
+    }
+    input[value="submit"]{
+      width:450px;
+      height: 30px;
+      background-color:rgba(150, 200, 100, 1);
+      text-transform: uppercase; 
+    }
+    
+    h1, p{
+      text-align: center;
+    }
+    fieldset{
+      background-color:rgba(0,0,0,0.6);
+    }
+    
+    a {
+      color: white;
+    }
+    
+    a:visited {
+      color: yellow;
+    }
+    
+    a:hover {
+      color: violet;
+    }
+    
+    a:active {
+      color: cyan;
+    }
+    
+    footer {
+      font-size: 14px;
+    }
+    

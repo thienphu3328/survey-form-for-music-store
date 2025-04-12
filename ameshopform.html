@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Ame Music</title>
+<link rel="stylesheet" href="ameformstyles.css">
+</head>
+<body>
+
+<div><h1 id="title">Ame Music</h1></div>
+<div><p id="description">Thank you for filling out this form to help us improve the store</p></div>
+
+<form id="survey-form">
+  <fieldset>
+    <label for="name"></label>
+    <label id="name-label">Your full name<input type="text" id="name" name="name" required placeholder="Bokuto"></label>
+    <label for="number-label"></label>
+    <label id="number-label">Your age<input type="number" id="number" name="number" min="18" max="99" required placeholder="18"></label>
+    <label for="email"></label>
+    <label id="email-label">Your email<input type="email" id="email" name="email" required placeholder="@gmail.com"></label>
+
+    <label for="dropdown">Your favourite taste of music in our store
+      <select id="dropdown">
+        <option value="1">Alternative Rock</option>
+        <option value="2">Alternative Pop</option>
+        <option value="3">R&B</option>
+        <option value="4">K-Pop</option>
+        <option value="5">Jazz</option>
+        <option value="6">V-pop</option>
+        <option value="7">Vietnamese Indie Artists</option>
+      </select>
+      </label>
+  
+    <label for="music-type">What kind of music would you request for us?</label>
+    <label><input type="radio" name="music-type" value="classic" checked>Classic</label>
+    <label><input type="radio" name="music-type" value="rap">Rap</label>
+    <label><input type="radio" name="music-type" value="country">Country</label>
+    <label><input type="radio" name="music-type" value="folk">Folk</label>
+    <label><input type="radio" name="music-type" value="japan">J-pop</label>
+
+    <label for="recommend">Would you recommend our store to your friend?</label>
+    <label><input type="checkbox" name="recommend" value="yes">Yes,of course</label>
+    <label><input type="checkbox" name="recommend" value="no">No, I don't think so</label>
+    <label><input type="checkbox" name="recommend" value="consider">I will consider this</label>
+
+    <label for="suggest">Any recommend or suggest for us?</label>
+    <textarea id="suggest" name="suggest"></textarea>
+
+<input id ="submit" type="submit" value="submit"/>
+
+<footer>
+  <p>Est.2024</p>
+  <p>
+  <a href="https://www.facebook.com/profile.php?id=61559118761133" target="_blank">Visit our page</a>
+</footer>
+
+  </fieldset>
+  
+</form>
+
+
+
+
+</body>
+</html>
